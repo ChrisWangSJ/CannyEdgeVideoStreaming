@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17E9EC828A189370028304A /* TT3CClientAPI in Frameworks */ = {isa = PBXBuildFile; fileRef = C17E9EC728A189370028304A /* TT3CClientAPI */; };
+		C1F1AEF4288B1A5C00ED41C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1AEF3288B1A5C00ED41C4 /* AppDelegate.swift */; };
+		C1F1AEF6288B1A5C00ED41C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1AEF5288B1A5C00ED41C4 /* ViewController.swift */; };
+		C1F1AEF8288B1A5E00ED41C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F1AEF7288B1A5E00ED41C4 /* Assets.xcassets */; };
+		C1F1AEFB288B1A5E00ED41C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F1AEF9288B1A5E00ED41C4 /* Main.storyboard */; };
+		C1F1AF06288B1A5E00ED41C4 /* Token_Test_3c_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1AF05288B1A5E00ED41C4 /* Token_Test_3c_ClientTests.swift */; };
+		C1F1AF10288B1A5E00ED41C4 /* Token_Test_3c_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1AF0F288B1A5E00ED41C4 /* Token_Test_3c_ClientUITests.swift */; };
+		C1F1AF12288B1A5E00ED41C4 /* Token_Test_3c_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F1AF11288B1A5E00ED41C4 /* Token_Test_3c_ClientUITestsLaunchTests.swift */; };
+		C1F1AF23288B45CC00ED41C4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F1AF22288B45CC00ED41C4 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1F1AF02288B1A5E00ED41C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F1AEE8288B1A5C00ED41C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F1AEEF288B1A5C00ED41C4;
+			remoteInfo = "Token-Test-3c-Client";
+		};
+		C1F1AF0C288B1A5E00ED41C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1F1AEE8288B1A5C00ED41C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1F1AEEF288B1A5C00ED41C4;
+			remoteInfo = "Token-Test-3c-Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17E9EC728A189370028304A /* TT3CClientAPI */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = TT3CClientAPI; path = TT3CAPI/TT3CClientAPI; sourceTree = "<group>"; };
+		C1F1AEF0288B1A5C00ED41C4 /* Token-Test-3c-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Token-Test-3c-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1AEF3288B1A5C00ED41C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1F1AEF5288B1A5C00ED41C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F1AEF7288B1A5E00ED41C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F1AEFA288B1A5E00ED41C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F1AF01288B1A5E00ED41C4 /* Token-Test-3c-ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Token-Test-3c-ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1AF05288B1A5E00ED41C4 /* Token_Test_3c_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Test_3c_ClientTests.swift; sourceTree = "<group>"; };
+		C1F1AF0B288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Token-Test-3c-ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F1AF0F288B1A5E00ED41C4 /* Token_Test_3c_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Test_3c_ClientUITests.swift; sourceTree = "<group>"; };
+		C1F1AF11288B1A5E00ED41C4 /* Token_Test_3c_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Test_3c_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1F1AF1F288B1D5500ED41C4 /* Token_Test_3c_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Token_Test_3c_Client.entitlements; sourceTree = "<group>"; };
+		C1F1AF22288B45CC00ED41C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F1AEED288B1A5C00ED41C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17E9EC828A189370028304A /* TT3CClientAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AEFE288B1A5E00ED41C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AF08288B1A5E00ED41C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17E9EC628A189370028304A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17E9EC728A189370028304A /* TT3CClientAPI */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F1AEE7288B1A5C00ED41C4 = {
+			isa = PBXGroup;
+			children = (
+				C1F1AEF2288B1A5C00ED41C4 /* Token-Test-3c-Client */,
+				C1F1AF04288B1A5E00ED41C4 /* Token-Test-3c-ClientTests */,
+				C1F1AF0E288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests */,
+				C1F1AEF1288B1A5C00ED41C4 /* Products */,
+				C17E9EC628A189370028304A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F1AEF1288B1A5C00ED41C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1AEF0288B1A5C00ED41C4 /* Token-Test-3c-Client.app */,
+				C1F1AF01288B1A5E00ED41C4 /* Token-Test-3c-ClientTests.xctest */,
+				C1F1AF0B288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F1AEF2288B1A5C00ED41C4 /* Token-Test-3c-Client */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1AEF3288B1A5C00ED41C4 /* AppDelegate.swift */,
+				C1F1AEF5288B1A5C00ED41C4 /* ViewController.swift */,
+				C1F1AEF7288B1A5E00ED41C4 /* Assets.xcassets */,
+				C1F1AEF9288B1A5E00ED41C4 /* Main.storyboard */,
+				C1F1AF1F288B1D5500ED41C4 /* Token_Test_3c_Client.entitlements */,
+				C1F1AF22288B45CC00ED41C4 /* Info.plist */,
+			);
+			path = "Token-Test-3c-Client";
+			sourceTree = "<group>";
+		};
+		C1F1AF04288B1A5E00ED41C4 /* Token-Test-3c-ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1AF05288B1A5E00ED41C4 /* Token_Test_3c_ClientTests.swift */,
+			);
+			path = "Token-Test-3c-ClientTests";
+			sourceTree = "<group>";
+		};
+		C1F1AF0E288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1AF0F288B1A5E00ED41C4 /* Token_Test_3c_ClientUITests.swift */,
+				C1F1AF11288B1A5E00ED41C4 /* Token_Test_3c_ClientUITestsLaunchTests.swift */,
+			);
+			path = "Token-Test-3c-ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F1AEEF288B1A5C00ED41C4 /* Token-Test-3c-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1AF15288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-Client" */;
+			buildPhases = (
+				C1F1AEEC288B1A5C00ED41C4 /* Sources */,
+				C1F1AEED288B1A5C00ED41C4 /* Frameworks */,
+				C1F1AEEE288B1A5C00ED41C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Token-Test-3c-Client";
+			productName = "Token-Test-3c-Client";
+			productReference = C1F1AEF0288B1A5C00ED41C4 /* Token-Test-3c-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1F1AF00288B1A5E00ED41C4 /* Token-Test-3c-ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1AF18288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-ClientTests" */;
+			buildPhases = (
+				C1F1AEFD288B1A5E00ED41C4 /* Sources */,
+				C1F1AEFE288B1A5E00ED41C4 /* Frameworks */,
+				C1F1AEFF288B1A5E00ED41C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F1AF03288B1A5E00ED41C4 /* PBXTargetDependency */,
+			);
+			name = "Token-Test-3c-ClientTests";
+			productName = "Token-Test-3c-ClientTests";
+			productReference = C1F1AF01288B1A5E00ED41C4 /* Token-Test-3c-ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1F1AF0A288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F1AF1B288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-ClientUITests" */;
+			buildPhases = (
+				C1F1AF07288B1A5E00ED41C4 /* Sources */,
+				C1F1AF08288B1A5E00ED41C4 /* Frameworks */,
+				C1F1AF09288B1A5E00ED41C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F1AF0D288B1A5E00ED41C4 /* PBXTargetDependency */,
+			);
+			name = "Token-Test-3c-ClientUITests";
+			productName = "Token-Test-3c-ClientUITests";
+			productReference = C1F1AF0B288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F1AEE8288B1A5C00ED41C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C1F1AEEF288B1A5C00ED41C4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C1F1AF00288B1A5E00ED41C4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C1F1AEEF288B1A5C00ED41C4;
+					};
+					C1F1AF0A288B1A5E00ED41C4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C1F1AEEF288B1A5C00ED41C4;
+					};
+				};
+			};
+			buildConfigurationList = C1F1AEEB288B1A5C00ED41C4 /* Build configuration list for PBXProject "Token-Test-3c-Client" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F1AEE7288B1A5C00ED41C4;
+			productRefGroup = C1F1AEF1288B1A5C00ED41C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F1AEEF288B1A5C00ED41C4 /* Token-Test-3c-Client */,
+				C1F1AF00288B1A5E00ED41C4 /* Token-Test-3c-ClientTests */,
+				C1F1AF0A288B1A5E00ED41C4 /* Token-Test-3c-ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F1AEEE288B1A5C00ED41C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1AEF8288B1A5E00ED41C4 /* Assets.xcassets in Resources */,
+				C1F1AEFB288B1A5E00ED41C4 /* Main.storyboard in Resources */,
+				C1F1AF23288B45CC00ED41C4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AEFF288B1A5E00ED41C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AF09288B1A5E00ED41C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F1AEEC288B1A5C00ED41C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1AEF6288B1A5C00ED41C4 /* ViewController.swift in Sources */,
+				C1F1AEF4288B1A5C00ED41C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AEFD288B1A5E00ED41C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1AF06288B1A5E00ED41C4 /* Token_Test_3c_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F1AF07288B1A5E00ED41C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F1AF10288B1A5E00ED41C4 /* Token_Test_3c_ClientUITests.swift in Sources */,
+				C1F1AF12288B1A5E00ED41C4 /* Token_Test_3c_ClientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1F1AF03288B1A5E00ED41C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F1AEEF288B1A5C00ED41C4 /* Token-Test-3c-Client */;
+			targetProxy = C1F1AF02288B1A5E00ED41C4 /* PBXContainerItemProxy */;
+		};
+		C1F1AF0D288B1A5E00ED41C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1F1AEEF288B1A5C00ED41C4 /* Token-Test-3c-Client */;
+			targetProxy = C1F1AF0C288B1A5E00ED41C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1F1AEF9288B1A5E00ED41C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F1AEFA288B1A5E00ED41C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F1AF13288B1A5E00ED41C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F1AF14288B1A5E00ED41C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C1F1AF16288B1A5E00ED41C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Token-Test-3c-Client/Token_Test_3c_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Token-Test-3c-Client/info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TT3CAPI",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/TT3CAPI";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1F1AF17288B1A5E00ED41C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Token-Test-3c-Client/Token_Test_3c_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Token-Test-3c-Client/info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TT3CAPI",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/TT3CAPI";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C1F1AF19288B1A5E00ED41C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token-Test-3c-Client.app/Contents/MacOS/Token-Test-3c-Client";
+			};
+			name = Debug;
+		};
+		C1F1AF1A288B1A5E00ED41C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Token-Test-3c-Client.app/Contents/MacOS/Token-Test-3c-Client";
+			};
+			name = Release;
+		};
+		C1F1AF1C288B1A5E00ED41C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Token-Test-3c-Client";
+			};
+			name = Debug;
+		};
+		C1F1AF1D288B1A5E00ED41C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NDJXC6WX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhenyu.Token-Test-3c-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Token-Test-3c-Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F1AEEB288B1A5C00ED41C4 /* Build configuration list for PBXProject "Token-Test-3c-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1AF13288B1A5E00ED41C4 /* Debug */,
+				C1F1AF14288B1A5E00ED41C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1AF15288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1AF16288B1A5E00ED41C4 /* Debug */,
+				C1F1AF17288B1A5E00ED41C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1AF18288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1AF19288B1A5E00ED41C4 /* Debug */,
+				C1F1AF1A288B1A5E00ED41C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F1AF1B288B1A5E00ED41C4 /* Build configuration list for PBXNativeTarget "Token-Test-3c-ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F1AF1C288B1A5E00ED41C4 /* Debug */,
+				C1F1AF1D288B1A5E00ED41C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F1AEE8288B1A5C00ED41C4 /* Project object */;
+}
