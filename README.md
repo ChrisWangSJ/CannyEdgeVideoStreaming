@@ -16,6 +16,11 @@ Prerequisite: Annaconda environment, Python, Xcode.
 4. Then Open "Token-Test-3c-WithAPI-YY-2022-08-03" -> "Token-Test-3c-Client.xcodeproj" to enter the Xcode Platform.
 5. Run the code and we will see the result.
 
+Result Image Display:
+
+cid:7048A133-2E6E-4D8C-9932-7B1921354C51![image](https://user-images.githubusercontent.com/57643306/236702315-e1a8fb7c-5a51-4fc6-ab5c-6a2bf755ab8e.png)
+
+
 
 
 
