@@ -1,7 +1,13 @@
 # CannyEdgeVideoStreaming
 Call usb Camera(built-in Camera) on Swift Client and send video buffer data to Python Server. Python server will process the data and send back to Swift Client. The Swift Client will display the content of camera that outline objects.
 
-1. Download the Package first.
+Prerequisite: Annaconda environment, Python, Xcode.
+
+
+
+1. Download All Packages.
+
+2. Active Annaconda environemnt.
 
 2. Open "Token-Test-3c-YY-2022-08-03"
 
